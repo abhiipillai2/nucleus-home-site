@@ -156,6 +156,7 @@ body {
 }
 
 .text-box button {
+    text-decoration: none;
     position: relative;
     width: 300px;
     padding: 10px 45px;
@@ -169,6 +170,10 @@ body {
     margin-top: 50px;
 }
 
+.text-box button a{
+    text-decoration:none;
+    color: white;
+}
 .text-box-2{
     width: 100%;
     height: 500px;
@@ -180,8 +185,7 @@ body {
     font-weight: bolder;
 }
 .text-box-2-p{
-    width: 1000px;
-    margin-left: 200px;
+    /* width: 800px; */
     padding: 30px;
 }
 
@@ -211,68 +215,8 @@ body {
     margin-left: 0px;
     margin-top: 50px;
 }
-/*login page*/
 
-.registration-form-div {
-    position: fixed;
-    width: 350px;
-    height: 550px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid;
-    border-color: #ececec;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .5px .5px 0 rgba(0, 0, 0, 0.19);
-}
-
-.registration-form-div form {
-    margin-top: 10px;
-    padding: 20px;
-    color: black;
-    font-weight: bold;
-}
-
-.registration-form-div input {
-    width: 300px;
-    padding: 8px;
-    padding-right: 40px;
-    color: black;
-    font-weight: normal;
-    opacity: 1;
-    background-color: white;
-    border: 1px solid#ececec;
-    margin-top: 5px;
-    margin-bottom: 18px;
-}
-
-.registration-form-div button {
-    position: relative;
-    width: 300px;
-    padding: 10px 45px;
-    border: none;
-    border-radius: 30px;
-    background-color: #77b568;
-    color: #fff;
-    margin-left: 0px;
-    margin-top: 5px;
-}
-
-.registration-form-div p {
-    text-align: justify;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    font-size: 12px;
-}
-
-.registration-form-div p a {
-    cursor: pointer;
-}
-
-.e-msg {
-    position: relative;
-    width: 300px;
-    height: 500px;
-    margin-top: 500px;
-    text-align: justify;
+.text-box-2 button a{
+    text-decoration:none;
+    color: white;
 }
